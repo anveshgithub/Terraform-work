@@ -16,6 +16,7 @@ contents:
 modules:  which contain all resource modules we call in root module
 
 Bandgi-assesment.tf: root module where we call all the child modules
+
 outputs.tf: represents the values created by each module and we refer for identification of resources
 
 
