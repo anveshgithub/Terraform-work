@@ -1,6 +1,6 @@
-#variable "instance_profile" {
-#   type = string
-#}
+variable "instance_profile" {
+   type = string
+}
 variable "web_sg_id" {
   description = "to define security-group"
   type        = string
