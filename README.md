@@ -27,5 +27,10 @@ Bandgi-assesment.tf: root module where we call all the child modules
 
 outputs.tf: represents the values created by each module and we refer for identification of resources
 
+this code facilitates Autoscaling group with launch template and IAM instance profile and ELB
+(to load balance on port 80)
+With the use of user-data in above launch template, setup docker and run
+a nginx:latest container ( running on port 80)
 
+we can resuable in all environments where we intended 
 
